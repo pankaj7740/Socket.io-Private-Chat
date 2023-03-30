@@ -1,0 +1,26 @@
+{
+  "name": "socket.io-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "socket.io",
+    "live-chat-app",
+    "realtime-chat-app",
+    "mern-chat-app"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.4",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1",
+    "uuid": "^8.3.2"
+  }
+}
